@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual McDonald's</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="orderContainer">
+        <h2>Welcome to Virtual McDonald's</h2>
+        <h4>Please select food item</h4>
+    
+        <div>
+
+            <label for="burgerCheckbox">Burger</label>
+            <input type="checkbox" id="burgerCheckbox" value="Burger">
+
+           
+            <label for="friesCheckbox">Fries</label>
+            <input type="checkbox" id="friesCheckbox" value="Fries">
+
+            
+            <label for="drinkCheckbox">Drink</label>
+            <input type="checkbox" id="drinkCheckbox" value="Drink">
+            
+            <label for="pizzaCheckbox">Pizza</label>
+            <input type="checkbox" id="pizzaCheckbox" value="pizza">
+    
+        </div>
+        <button onclick="orderFood()">Order Food</button>
+        <div id="orderinfor2"></div>
+        <img id="foodImage" src="" alt="Food Image">
+    
+        <div id="orderInfo"></div>
+    </div>  
+</body>
+</html>
+<script src="index.js"></script>
